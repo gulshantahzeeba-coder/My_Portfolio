@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="Images/site_logo.png">
+
+                <!-- title -->
+
+    <title>My Portfolio</title>
+                <!-- link css -->
+
+    <link rel="stylesheet" href="style.css">
+                <!-- for icons -->
+
+    <script src="https://kit.fontawesome.com/06fab0dff1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+                            <!-- =-=-=-=-=- HEADER -=-=-=-=-= -->
+
+<header id="header">
+  <div class="container">
+    <nav>
+                            <!-- =-=-=-=-=- LOGO -=-=-=-=-= -->
+
+      <!-- <h2 class="logo"><a href="#">GUL<span>SHAN</span></a></h2> -->
+        <h2 class="logo">
+  <a href="https://docs.google.com/spreadsheets/d/1HJ_J1AGosTBj2priUXr7XC8Oay8_tvowEnRn25ea1Uw/edit?gid=0#gid=0" target="_blank">
+    GUL<span>SHAN</span>
+  </a>
+</h2>
+
+                <!-- ul -->
+
+      <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        
+                        <!-- icon for mobile view -->
+
+        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+      </ul>
+                <!-- icon for mobile view -->
+
+      <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+  </div>
+</header>
+
+                         <!-- =-=-=-=-=- HERO -=-=-=-=-= -->
+
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-text">
+    <p>Web Developer</p>
+    <h1>Hi, I'm <span>Gulshan</span><br>Tahzeeba from Pakistan</h1>
+    </div>
+    <div class="hero-image">
+      <img src="Images/back2.png" alt="Hero Image">
+    </div>
+  </div>
+</section>
+
+
+                <!-- =-=-=-=-=-ABOUT ME-=-=-=-=-= -->
+
+    <div id = "about">
+        <div class ="container">
+            <div class="row">
+
+                <!-- column 1 -->
+            
+                <div class="about-col-1">
+                <img src="Images/aboutme.jpg">
+            </div>
+
+                <!-- column 2 -->
+
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    My name is Gulshan.
+                    I am a creative and passionate learner who enjoys building <br> 
+                    and designing websites. I work with HTML, CSS, and JavaScript, and I <br> 
+                    always try to turn simple ideas into clean and professional designs. <br> 
+                    I like learning new concepts, practicing regularly, and improving my<br>
+                    skills over time. My goal is to create high-quality, user-friendly <br>
+                    websites that are practical and visually appealing.<br>
+                    </p>
+
+                <!-- tab-title -->
+
+                    <div class="tab-title">
+                <!-- tab-links -->    <!-- active-link -->
+
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                <!-- tab-contents -->    <!-- active-tab -->    <!-- skill -->
+
+                    <div class="tab-contents active-tab" id = "skills">
+                        <ul>
+                        <li><span>Web Development</span><br>Creating Modern Web Interfaces</li>
+                        <li><span>WordPress</span><br>Custom WordPress Website Design</li>
+                        <li><span>Lead Generation</span><br>Generating High Quality Leads</li>
+                        <li><span>Marketing</span><br>Social Media Marketing</li>
+                        </ul>
+                 </div>
+
+                <!-- tab-contents -->    <!-- id = experience -->
+
+                 <div class="tab-contents" id="experience">
+                        <ul>
+                        <li><span>Oct 2025 – Present</span><br>Personal Projects</li>
+                        <li><span>Jan 2023 – Dec 2023</span><br>Freelance Projects</li>
+                        <li><span>Aug 2022 – Present</span><br>Cyntik</li>
+                        <li><span>Jun 2022 – Dec 2022</span><br>Online Campaigns</li>
+                        </ul>
+
+                <!-- tab-contents -->    <!-- id = education -->
+
+                 </div>
+                 <div class="tab-contents" id="education">
+                        <ul>
+                        <li><span>March 2024 – Present</span><br>Bachelor’s in Computer Science</li>
+                        </ul>
+                 </div>
+                 <a href="#contact" class="btn">Hire Me</a>
+            </div>
+        </div>
+    </div>
+                    <!-- =-=-=-=-=-SERVICES-=-=-=-=-= -->
+
+    <div class="services" id = "services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                <!-- web design -->
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I design clean, modern, user-friendly websites that look great and work smoothly on all devices.</p>
+                    <!-- <a href="#">Learn More</a> -->
+                    
+                </div>
+                <div>
+
+                <!-- leads generation -->
+
+                     <i class="fa-regular fa-circle-dot"></i>
+                    <h2>Leads Generation</h2>
+                    <p>I help businesses generate high-quality, targeted leads that drive consistent measurable growth.</p>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+                <div>
+
+                <!-- wordpress -->
+
+                    <i class="fa-brands fa-wordpress-simple"></i>
+                    <h2>WordPress</h2>
+                    <p>I design and customize WordPress websites tailored to each client’s unique business needs.</p>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+                <div>
+
+                <!-- marketing -->
+
+                    <i class="fa-brands fa-threads"></i>
+                    <h2>Marketing</h2>
+                    <p>I help businesses grow through effective digital marketing strategies.</p>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+                    <!-- =-=-=-=-=-PORTFOLIO-=-=-=-=-= -->
+
+            <div id = "portfolio">
+                <div class="container">
+                    <h1 class="sub-title">My Work</h1>
+                 <div class="work-list">
+                         <!-- work1 -->
+                        <div class="work">
+                            <img src ="Images/work1.jpg">
+                            <div class="layer">
+                                <h3>Web Design</h3>
+                             <p>Creating clean, modern, and responsive website designs focused on usability and visual appeal.</p>
+                             <!-- <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                         </div>
+                        </div>
+
+                            <!-- work2 -->
+
+                             <div class="work">
+                            <img src ="Images/work2.jpg">
+                            <div class="layer">
+                                <h3>Lead Generation</h3>
+                                <p>Generating high-quality, targeted leads to help businesses grow sales and increase conversions.</p>
+                             <!-- <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                            </div>
+                        </div>
+
+                <!-- work3 -->
+
+            <div class="work">
+                <img src ="Images/work3.jpg">
+                <div class="layer">
+                <h3>WordPress</h3>
+                    <p>Designing and customizing WordPress websites tailored to business goals and client requirements.</p>
+                    <!-- <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                </div>
+             </div>
+                <!-- work4 -->
+            <div class="work">
+                <img src ="Images/work4.jpg">
+                <div class="layer">
+                    <h3>Marketing</h3>
+                    <p>Helping brands grow online through targeted digital marketing strategies and audience engagement.</p>
+                    <!-- <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <button class="btn">See More</button> -->
+</div>
+
+                <!-- =-=-=-=-=-CONTACT-=-=-=-=-= -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+
+            <!-- contact-left -->
+
+            <div class="contact-left">
+                <h1 "sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>gulshantahzeeba.kir@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+92 346 4355 105</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=61560295521905" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://github.com/gulshantahzeeba-coder?tab=repositories" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/safarigirl_57/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://pk.linkedin.com/in/gulshan-tahzeeba-9821b7372" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.tiktok.com/@safarigirl_57?lang=en" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+                <a href="Images/GULSHAN TAHZEEBA CV.pdf" download class ="btn btn2">Download CV</a>
+            </div>
+
+            <!-- contact-right -->
+
+            <div class="contact-right">
+                <form id="contactForm">
+                <input type="text"name="name"placeholder="Your Name"required>
+                <input type="email"name="email"placeholder="Your Email"required>
+                <input type="tel"name="phone"placeholder="Your Phone No."required>
+                <textarea name="message"rows="6"placeholder="Your Message"required></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+</form>
+        <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright Ⓖ Gulshan. Made with <i class="fa-solid fa-heart"></i></p>
+</div>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
